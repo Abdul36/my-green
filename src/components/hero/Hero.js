@@ -79,11 +79,19 @@ const Hero = () => {
                   </div>
                 </div>
                 <span>
-                  <input type="text" className="fx" placeholder="Date" />{" "}
+                  <input type="text" className="fx" placeholder="5/18/2023" />{" "}
                   <br></br>
-                  <input type="text" className="fx mt-2" placeholder="Date" />
+                  <input
+                    type="text"
+                    className="fx mt-2"
+                    placeholder="7:00 pm"
+                  />
                   <br></br>
-                  <input type="text" className="fx mt-2" placeholder="Date" />
+                  <input
+                    type="text"
+                    className="fx mt-2"
+                    placeholder="2 People"
+                  />
                   <br></br>
                   <button className="btn book mt-3 mb-3">Book a Table</button>
                   <br></br>

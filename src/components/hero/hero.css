@@ -30,10 +30,12 @@ p.power {
     height: 6vh;
     background-color: transparent;
     border: 2px solid white;
+    margin-left: 125px;
 }
 
 .book {
     background-color: #8EC63F;
+    margin-left: 31%;
 }
 
 button.btn.book.mt-3 {
@@ -142,4 +144,10 @@ a.in {
         order: 1;
         /* Ensure the SignIn button remains in place */
     }
+}
+
+/* CSS */
+.fx::placeholder {
+    color: white;
+    /* Change to your desired color */
 }
