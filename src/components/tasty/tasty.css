@@ -1,0 +1,72 @@
+.tas {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8EC63F;
+    padding-top: 20px;
+}
+
+.chs {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.insp {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #797979;
+    margin-bottom: 20px;
+}
+
+.cart {
+    max-width: 100px;
+}
+
+@media (max-width: 768px) {
+    .d-lg-flex {
+        flex-direction: column !important;
+    }
+
+    .cart {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-lg-flex {
+        flex-direction: column !important;
+    }
+
+    .cart {
+        max-width: 70px;
+    }
+}
+
+.underline-green {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    /* Use this to inherit the text color from the parent */
+}
+
+.underline-green::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    /* Adjust the height of the underline as needed */
+    background-color: #8EC63F;
+    /* Your desired green color */
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.underline-green:hover::after {
+    transform: scaleX(1);
+}

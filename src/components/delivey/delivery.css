@@ -1,0 +1,84 @@
+.ofr {
+    color: #8EC63F;
+    font-family: Cuprum, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.79px;
+    text-align: left;
+}
+
+.fre {
+    color: #8EC63F;
+    font-family: Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48.3px;
+    text-align: left;
+}
+
+.insp {
+    color: #797979;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: left;
+}
+
+.leafab {
+    top: 0;
+    left: 0;
+    width: 50px;
+}
+
+@media (max-width: 768px) {
+    .leafab {
+        width: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .leafab {
+        width: 20px;
+    }
+}
+
+.boc {
+    border-radius: 8px;
+    background-color: white;
+}
+
+.boc img {
+    max-width: 80px;
+}
+
+@media (max-width: 768px) {
+    .boc img {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .boc img {
+        max-width: 50px;
+    }
+}
+
+.order {
+    background-color: #8EC63F;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 26px;
+}
+
+.order:hover {
+    background-color: #7eb53b;
+}
+
+@media (max-width: 768px) {
+
+    .boc p,
+    .boc b {
+        text-align: center;
+    }
+}
