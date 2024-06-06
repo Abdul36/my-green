@@ -1,3 +1,22 @@
+.custom-input {
+    background-color: lightblue;
+    /* Change this to the color you prefer */
+    color: #000;
+    /* Ensures text is readable against the background */
+}
+
+.text-white {
+    color: white !important;
+}
+
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
 .map-responsive {
     overflow: hidden;
     padding-bottom: 56.25%;
@@ -15,40 +34,42 @@
     border: 0;
 }
 
-p.timing {
-    margin-left: 35px;
+/* Add media queries for extra responsiveness */
+@media (max-width: 576px) {
+    .ntr {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .timing {
+        text-align: center;
+    }
+
+    .social img {
+        margin-bottom: 10px;
+    }
+
+    .social img.ms-3 {
+        margin-left: 5% !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .d-flex.ntr {
+        margin-left: 33%;
+        padding-top: 20px;
+    }
+
+    p.timing {
+        margin-left: 22px;
+    }
 }
 
 .d-flex.ntr {
-    margin-left: 30%;
+    margin-left: 33%;
+    padding-top: 20px;
 }
 
-.call {
-    font-family: Arial;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 36.8px;
-    text-align: left;
-
-}
-
-.phn {
-    font-family: Cuprum;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 18.48px;
-    text-align: left;
-
-}
-
-
-button.btn.now {
-    margin-left: -10%;
-    margin-top: 23px;
-    background-color: #8EC63F;
-    box-shadow: 0px 4px 6px 0px #49790640;
-
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
+p.timing {
+    margin-left: 22px;
 }

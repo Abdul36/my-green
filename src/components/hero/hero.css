@@ -1,3 +1,4 @@
+/* Hero section */
 .hero {
     background-image: url("../../Assets/Images/hero.png");
     background-position: center;
@@ -6,23 +7,29 @@
     height: auto;
 }
 
+/* Box container */
 .box {
     background-image: url("../../Assets/Images/rect.png");
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: auto;
     margin-top: 70px;
+    padding: 20px;
+    /* Add padding for spacing */
 }
 
+/* Calendar flex container */
 .d-flex.cal {
     margin-left: 28%;
     padding-top: 18px;
 }
 
+/* Power text */
 p.power {
     padding-left: 19px;
 }
 
+/* Input fields */
 .fx {
     border-radius: 10px;
     height: 6vh;
@@ -31,6 +38,26 @@ p.power {
     margin-left: 32%;
 }
 
+.navn {
+    background-color: #8EC63F;
+    width: 80%;
+    margin: auto;
+}
+
+a.nav-link {
+    color: white;
+}
+
+button.btn.snf {
+    background-color: white;
+}
+
+.in {
+    text-decoration: none;
+    color: #8EC63F;
+}
+
+/* Book button */
 .book {
     background-color: #8EC63F;
     margin-left: 35%;
@@ -42,6 +69,7 @@ button.btn.book.mt-3 {
     border-radius: 17px;
 }
 
+/* Go text */
 .go {
     font-family: Arial;
     font-size: 96px;
@@ -50,6 +78,7 @@ button.btn.book.mt-3 {
     text-align: left;
 }
 
+/* Fresh text */
 .fresh {
     font-family: Arial;
     font-size: 24px;
@@ -58,11 +87,13 @@ button.btn.book.mt-3 {
     text-align: left;
 }
 
+/* Get button */
 .get {
     padding: 10px 26px;
     border-radius: 20px;
 }
 
+/* Our Menu button */
 .our {
     border: 2px solid white;
     padding: 10px 26px;
@@ -79,54 +110,49 @@ button.btn.book.mt-3 {
     margin-right: 4%;
 }
 
-a.in {
-    text-decoration: none;
-    color: white;
-}
-
-.navn {
-    width: 60%;
-    margin: auto;
-    background-color: #8EC63F;
-    box-shadow: 0px 4px 10px 0px #00000040;
-    border-radius: 10px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-    .d-flex.cal {
-        margin-left: 20%;
-        padding-top: 18px;
-    }
-}
-
-@media (max-width: 991px) {
-    .d-flex.cal {
-        margin-left: 17%;
-        padding-top: 36px;
-    }
-}
-
-/* Ensure the navbar is flexibly aligned */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* SignIn Button */
+.sgn.book {
+    margin-left: auto;
+    /* Align to the right */
 }
 
 /* Adjust the alignment for medium, small, and extra-small screens */
 @media (max-width: 991.98px) {
-    .navbar-collapse {
-        justify-content: flex-start;
-    }
-
-    .sgn.book.boook1 {
-        order: 1;
-        /* Ensure the SignIn button remains in place */
+    .sgn.book {
+        margin-right: 10px;
+        /* Add some margin to separate from other links */
     }
 }
 
 /* Placeholder Color */
 .fx::placeholder {
     color: white;
+}
+
+/* Adjust layout for small screens */
+@media (max-width: 768px) {
+    .d-flex.cal {
+        margin-left: 20%;
+        padding-top: 18px;
+    }
+
+    .box {
+        padding: 10px;
+        /* Reduce padding */
+    }
+
+    .d-flex.flex-column.flex-md-row {
+        flex-direction: column;
+        /* Change to column layout on small screens */
+    }
+
+    .fx {
+        margin-bottom: 10px;
+        /* Add space between input fields */
+    }
+
+    .btn.book {
+        margin-top: 10px;
+        /* Add space above button */
+    }
 }

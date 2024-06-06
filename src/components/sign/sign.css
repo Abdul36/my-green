@@ -1,0 +1,136 @@
+.bx {
+    width: 35%;
+    height: 15vh;
+    margin-top: 5%;
+    margin-left: -2%;
+    background-color: #8EC63F;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.sgnlogo {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.my {
+    font-family: Cuprum;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57.75px;
+    text-align: left;
+}
+
+.acc {
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 22.95px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.password-input {
+    width: 100%;
+    padding-right: 40px;
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #8EC63F;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
+
+.form-control {
+    border-right: none;
+}
+
+.for {
+    padding-top: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 18.4px;
+    text-align: left;
+    color: #8EC63F;
+}
+
+button.btn.lgn {
+    padding: 10px 45%;
+    background-color: #8EC63F;
+    color: white;
+}
+
+.row.ing {
+    justify-content: center;
+    align-items: center;
+}
+
+.blc {
+    position: relative;
+}
+
+.blg {
+    position: absolute;
+    top: 70%;
+}
+
+.bhc {
+    width: 34%;
+}
+
+@media (max-width: 767px) {
+    .blg {
+        position: absolute;
+        top: 132%;
+    }
+}
+
+@media (max-width: 600px) {
+    .sgnlogo {
+        margin-left: 20px;
+        margin-top: 19px;
+    }
+
+    .blg {
+        position: absolute;
+        top: 132%;
+    }
+}
+
+@media (max-width: 564px) {
+    .sgnlogo {
+        margin-left: 20px;
+        margin-top: 19px;
+    }
+
+    img.img-fluid.sgnlogo {
+        width: 76%;
+    }
+
+    .blg {
+        position: absolute;
+        top: 140%;
+    }
+}
+
+.sni {
+    font-family: Cuprum;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 43.89px;
+    text-align: left;
+}

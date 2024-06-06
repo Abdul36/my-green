@@ -10,9 +10,11 @@ const Hero = () => {
         {/* Navbar */}
         <nav className="navbar navbar-expand-lg navn">
           <div className="container-fluid">
+            {/* Logo */}
             <a className="navbar-brand d-none d-lg-block" href="#">
-              <img src={flogo} className="img-fluid" alt="Logo" />
+              <img src={flogo} className="flogo" alt="Logo" />
             </a>
+            {/* Toggle Button */}
             <button
               className="navbar-toggler"
               type="button"
@@ -24,6 +26,7 @@ const Hero = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
+            {/* Navbar Links */}
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
@@ -33,13 +36,29 @@ const Hero = () => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Link
+                    About
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Blog
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Contact
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    Shop
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="sgn book boook1">
-              <button className="btn">
+            {/* SignIn Button */}
+            <div className="sgn book">
+              <button className="btn snf">
                 <a href="#" className="in">
                   SignIn
                 </a>
@@ -48,7 +67,7 @@ const Hero = () => {
           </div>
         </nav>
 
-        {/* Hero */}
+        {/* Hero Content */}
         <div className="container mt-5">
           <div className="row align-items-center justify-content-center">
             <div className="col-md">
@@ -75,7 +94,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <p>Book a Table</p>
-                    <p className="power">Power by opentable</p>
+                    <p className="power">Powered by OpenTable</p>
                   </div>
                 </div>
                 <span>

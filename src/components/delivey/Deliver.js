@@ -9,7 +9,7 @@ const Deliver = () => {
     <div>
       <section className="container mt-4 position-relative">
         <div className="leafab position-absolute">
-          <img src={leaf} alt="leaf" className="img-fluid" />
+          <img src={leaf} alt="leaf" className=" leafb" />
         </div>
         <div className="row justify-content-center align-items-center">
           <div className="col-md-6 text-center">
