@@ -29,9 +29,9 @@ const Sign = () => {
               </h4>
               <p className="insp acc">
                 If you don’t have an account <br />
-                you can
-                <Link to="/register">
-                  <span className="re"></span>Register here
+                you can{" "}
+                <Link to="/register" style={{ color: "#8EC63F" }}>
+                  Register here
                 </Link>
               </p>
             </div>

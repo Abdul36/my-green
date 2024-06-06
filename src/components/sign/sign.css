@@ -29,6 +29,7 @@
     line-height: 22.95px;
     letter-spacing: 0.1em;
     text-align: left;
+    z-index: 1000;
 }
 
 .password-input-container {
@@ -85,7 +86,8 @@ button.btn.lgn {
 
 .blg {
     position: absolute;
-    top: 70%;
+    top: 110%;
+    z-index: -1;
 }
 
 .bhc {
