@@ -4,6 +4,7 @@ import calender from "../../Assets/Images/calender.png";
 import flogo from "../../Assets/Images/flogo.png";
 import { Link } from "react-router-dom";
 import Sign from "../sign/Sign";
+import Table from "../table/Table";
 const Hero = () => {
   return (
     <div>
@@ -84,40 +85,7 @@ const Hero = () => {
               <button className="btn text-white our ms-2">Our Menu</button>
             </div>
             <div className="col-md">
-              <div className="box text-white">
-                <div className="d-flex cal">
-                  <div>
-                    <img
-                      src={calender}
-                      alt="calender"
-                      className="img-fluid calender"
-                    />
-                  </div>
-                  <div>
-                    <p>Book a Table</p>
-                    <p className="power">Powered by OpenTable</p>
-                  </div>
-                </div>
-                <span>
-                  <input type="text" className="fx" placeholder="5/18/2023" />{" "}
-                  <br></br>
-                  <input
-                    type="text"
-                    className="fx mt-2"
-                    placeholder="7:00 pm"
-                  />
-                  <br></br>
-                  <input
-                    type="text"
-                    className="fx mt-2"
-                    placeholder="2 People"
-                  />
-                  <br></br>
-                  <button className="btn book mt-3 mb-3">Book a Table</button>
-                  <br></br>
-                </span>
-                <br></br>
-              </div>
+              <Table />
               <br></br>
               <br></br>
               <br></br>
