@@ -1,0 +1,43 @@
+.gal {
+    font-family: Arial;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.59px;
+    text-align: left;
+
+}
+
+
+@media (max-width:564px) {
+    .pcs {
+        margin-left: 60px;
+    }
+
+    img.img-fluid.g1 {
+        width: 70%;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    img.img-fluid.g2 {
+        width: 70%;
+    }
+
+    img.img-fluid.g3 {
+        width: 70%;
+    }
+}
+
+@media (max-width:1199px) {
+    .g1 {
+        width: 42%;
+    }
+
+    .g2 {
+        width: 24%;
+    }
+
+    .g3 {
+        width: 24%;
+    }
+}
