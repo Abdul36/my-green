@@ -134,3 +134,7 @@ button.btn.lgn {
     line-height: 43.89px;
     text-align: left;
 }
+
+.re {
+    z-index: 100;
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./sign.css";
-
+import { Link } from "react-router-dom";
+import Register from "../register/Register";
 import flogo from "../../Assets/Images/flogo.png";
 import blur from "../../Assets/Images/blur.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,11 +16,11 @@ const Sign = () => {
 
   return (
     <div>
-      <section className="container-fluid">
+      <section className="container-fluid blc">
         <div className="bx">
           <img src={flogo} alt="flogo" className="img-fluid sgnlogo" />
         </div>
-        <div className="container blc pt-5">
+        <div className="container  pt-5">
           <div className="row ing">
             <div className="col-md">
               <h4 className="my">
@@ -28,7 +29,10 @@ const Sign = () => {
               </h4>
               <p className="insp acc">
                 If you don’t have an account <br />
-                you can <a style={{ color: "#8EC63F" }}>Register here</a>
+                you can
+                <Link to="/register">
+                  <span className="re"></span>Register here
+                </Link>
               </p>
             </div>
             <div className="col-md shadow">

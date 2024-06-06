@@ -2,7 +2,8 @@ import React from "react";
 import "./hero.css";
 import calender from "../../Assets/Images/calender.png";
 import flogo from "../../Assets/Images/flogo.png";
-
+import { Link } from "react-router-dom";
+import Sign from "../sign/Sign";
 const Hero = () => {
   return (
     <div>
@@ -30,9 +31,9 @@ const Hero = () => {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link active" aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
@@ -59,9 +60,9 @@ const Hero = () => {
             {/* SignIn Button */}
             <div className="sgn book">
               <button className="btn snf">
-                <a href="#" className="in">
+                <Link to="/sign" className="in">
                   SignIn
-                </a>
+                </Link>
               </button>
             </div>
           </div>
