@@ -1,0 +1,24 @@
+.odr {
+    background-color: #ededed;
+}
+
+.oder {
+    font-family: Arial;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.59px;
+    text-align: left;
+
+}
+
+.custom-placeholder::placeholder {
+    color: #a1a1a1;
+    /* Change this to the color you prefer */
+    opacity: 1;
+    /* Ensure the placeholder color is fully opaque */
+
+}
+
+.custom-input {
+    background-color: #dbdbe9;
+}

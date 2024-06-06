@@ -1,0 +1,54 @@
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio */
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border: 0;
+}
+
+p.timing {
+    margin-left: 35px;
+}
+
+.d-flex.ntr {
+    margin-left: 30%;
+}
+
+.call {
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36.8px;
+    text-align: left;
+
+}
+
+.phn {
+    font-family: Cuprum;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18.48px;
+    text-align: left;
+
+}
+
+
+button.btn.now {
+    margin-left: -10%;
+    margin-top: 23px;
+    background-color: #8EC63F;
+    box-shadow: 0px 4px 6px 0px #49790640;
+
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
