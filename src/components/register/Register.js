@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./register.css";
+import { Link } from "react-router-dom";
 
 import flogo from "../../Assets/Images/flogo.png";
 import blur from "../../Assets/Images/blur.png";
@@ -27,8 +28,11 @@ const Register = () => {
                 My <i style={{ color: "#8EC63F" }}>Application</i>
               </h4>
               <p className="insp acc">
-                If you don’t have an account <br />
-                you can <a style={{ color: "#8EC63F" }}>Register here</a>
+                Already have account <br />
+                you can{" "}
+                <Link to="/sign" style={{ color: "#8EC63F" }}>
+                  Login here
+                </Link>
               </p>
             </div>
             <div className="col-md shadow">
