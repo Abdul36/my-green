@@ -17,10 +17,10 @@ const Sign = () => {
   return (
     <div>
       <section className="container-fluid blc">
-        <div className="bx">
-          <img src={flogo} alt="flogo" className="img-fluid sgnlogo" />
+        <div className="bxx">
+          <img src={flogo} alt="flogo" className="img-fluid sgnlogoo" />
         </div>
-        <div className="container  pt-5">
+        <div className="container pt-5">
           <div className="row ing">
             <div className="col-md">
               <h4 className="my">

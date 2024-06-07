@@ -1,5 +1,5 @@
-.bx {
-    width: 35%;
+.bxx {
+    width: 20%;
     height: 15vh;
     margin-top: 5%;
     margin-left: -2%;
@@ -8,7 +8,7 @@
     border-bottom-right-radius: 20px;
 }
 
-.sgnlogo {
+.sgnlogoo {
     margin-left: 40px;
     margin-top: 25px;
 }
@@ -94,27 +94,9 @@ button.btn.lgn {
     width: 34%;
 }
 
-@media (max-width: 767px) {
-    .blg {
-        position: absolute;
-        top: 132%;
-    }
-}
-
-@media (max-width: 600px) {
-    .sgnlogo {
-        margin-left: 20px;
-        margin-top: 19px;
-    }
-
-    .blg {
-        position: absolute;
-        top: 132%;
-    }
-}
-
-@media (max-width: 564px) {
-    .sgnlogo {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sgnlogoo {
         margin-left: 20px;
         margin-top: 19px;
     }
@@ -124,8 +106,42 @@ button.btn.lgn {
     }
 
     .blg {
-        position: absolute;
         top: 140%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .sgnlogoo {
+        margin-left: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .blg {
+        top: 132%;
+    }
+
+    .bxx {
+        width: 50% !important;
+        height: 15vh;
+        margin-top: 0;
+        margin-left: -2%;
+        background-color: #8EC63F;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bxx {
+        width: 35% !important;
+        height: 15vh;
+        margin-top: 5%;
+        margin-left: -2%;
+        background-color: #8EC63F;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 }
 
