@@ -1,41 +1,42 @@
 import React from "react";
 import "./table.css";
 import calender from "../../Assets/Images/calender.png";
+
 const Table = () => {
   return (
     <div>
-      <div className="tablee mt-5 ms-5">
-        <div className="d-flex">
+      <div className="container tablee my-4 ">
+        <div className="d-flex justify-content-evenly align-items-center mb-3">
           <div>
-            <img
-              src={calender}
-              alt="Calender"
-              className="img-fluid cal pt-5 ms-3"
-            />
+            <img src={calender} alt="Calendar" className="img-fluid cal" />
           </div>
-          <div className="ms-3">
-            <p className="text-white pt-5">Book a table</p>
-            <p className="text-white"> Power By Open table</p>
+          <div>
+            <p>Book a Table</p>
+            <p>Powered by Open Table</p>
           </div>
         </div>
-        <div className="ms-3">
-          <input type="text" className="ispcc" placeholder="17/08/2024" />{" "}
-          <br></br>
-          <input
-            type="text"
-            className="ispcc mt-2"
-            placeholder="07:00 PM"
-          />{" "}
-          <br></br>
-          <input type="text" className="ispcc mt-2" placeholder="2 People" />
+        <div className="d-flex flex-column">
+          <input type="date" className="form-control my-2" />
+          <input type="time" className="form-control my-2" />
+          <select className="form-control my-2">
+            <option value="" disabled selected>
+              2 Persons
+            </option>
+            <option value="1">1 Person</option>
+            <option value="2">2 Persons</option>
+            <option value="3">3 Persons</option>
+            <option value="4">4 Persons</option>
+            <option value="5">5 Persons</option>
+            <option value="6">6 Persons</option>
+            <option value="7">7 Persons</option>
+            <option value="8">8 Persons</option>
+            <option value="9">9 Persons</option>
+            <option value="10">10 Persons</option>
+          </select>
         </div>
-        <button className="fndd">Find a Table </button>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        <div className="d-flex justify-content-center mt-2 mb-3">
+          <button className="btn findd ">Book a Table</button>
+        </div>
       </div>
     </div>
   );

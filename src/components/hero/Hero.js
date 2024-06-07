@@ -72,9 +72,9 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="container mt-5">
           <div className="row align-items-center justify-content-center">
-            <div className="col-md">
+            <div className="col-mdlg">
               <h2 className="go">
-                <u style={{ color: "#8EC63F" }}>Go</u>{" "}
+                <u style={{ color: "#8EC63F" }}>Go</u>
                 <span className="text-white">Green</span>
               </h2>
               <p className="fresh text-white">
@@ -84,7 +84,7 @@ const Hero = () => {
               <button className="btn book text-white get">Get Started</button>
               <button className="btn text-white our ms-2">Our Menu</button>
             </div>
-            <div className="col-md">
+            <div className="col-lg mt-4">
               <Table />
               <br></br>
               <br></br>
