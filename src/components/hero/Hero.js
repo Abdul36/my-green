@@ -72,7 +72,7 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="container mt-5">
           <div className="row align-items-center justify-content-center">
-            <div className="col-mdlg">
+            <div className="col-lg">
               <h2 className="go">
                 <u style={{ color: "#8EC63F" }}>Go</u>
                 <span className="text-white">Green</span>
