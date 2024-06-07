@@ -81,8 +81,8 @@ const Hero = () => {
                 Fresh, organic ingredients. Carefully prepared. Eat green for a
                 reason
               </p>
-              <button className="btn book text-white get">Get Started</button>
-              <button className="btn text-white our ms-2">Our Menu</button>
+              <button className=" get">Get Started</button>
+              <button className=" our">Our Menu</button>
             </div>
             <div className="col-lg mt-4">
               <Table />

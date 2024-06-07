@@ -57,11 +57,6 @@ button.btn.snf {
     color: #8EC63F;
 }
 
-/* Book button */
-.book {
-    background-color: #8EC63F;
-    margin-left: 35%;
-}
 
 button.btn.book.mt-3 {
     padding: 10px 32px;
@@ -91,6 +86,14 @@ button.btn.book.mt-3 {
 .get {
     padding: 10px 26px;
     border-radius: 20px;
+    background-color: #8EC63F;
+    color: white;
+    border: none;
+}
+
+.get:hover {
+    background-color: transparent;
+    border: 2px solid white;
 }
 
 /* Our Menu button */
@@ -98,11 +101,16 @@ button.btn.book.mt-3 {
     border: 2px solid white;
     padding: 10px 26px;
     border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    margin-left: 10px;
 }
 
 .our:hover {
     background-color: #8EC63F;
+    border: none;
 }
+
 
 /* Navbar */
 #navbarTogglerDemo03 {
@@ -155,4 +163,15 @@ button.btn.book.mt-3 {
         margin-top: 10px;
         /* Add space above button */
     }
+}
+
+@media (max-width: 576px) {
+    .go {
+        font-family: Arial;
+        font-size: 70px;
+        font-weight: 700;
+        line-height: 110.39px;
+        text-align: left;
+    }
+
 }

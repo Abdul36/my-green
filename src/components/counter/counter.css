@@ -120,6 +120,16 @@ img.img-fluid.blur {
         right: 0;
         transform: translateY(-50%);
     }
+
+    .counter-number {
+        font-family: Arial;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 73.59px;
+        text-align: left;
+        color: white;
+        margin-left: -3%;
+    }
 }
 
 @media(max-width:991px) {
