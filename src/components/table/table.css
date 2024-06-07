@@ -27,3 +27,13 @@
 .find:hover {
     background-color: transparent;
 }
+
+@media (max-width: 576px) {
+    .tablee {
+        /* background-color: aqua; */
+        margin: auto;
+        width: 80%;
+
+    }
+
+}
